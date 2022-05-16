@@ -1,0 +1,23 @@
+h1{
+    margin:0;
+    font-family:'Courier New', Courier, monospace;
+    padding:5px;
+    font-size: 40px;
+}
+p{
+    font-size:20px
+}
+canvas{
+    border: 1px 1px solid white;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    animation-name: aa;
+}
+@keyframes aa{
+from{
+    box-shadow: 3px 3px 3px blue;
+}
+to{
+    box-shadow: 10px 10px 10px purple;
+}
+}
